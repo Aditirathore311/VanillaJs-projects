@@ -23,7 +23,6 @@ function addtocart() {
 
 //search button query
 
-document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("search-input");
   const searchButton = document.getElementById("search-button");
   const productContainer = document.getElementById("product-container");
@@ -63,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     searchProducts();
   });
-});
+
 
 var btn = document.querySelector(".btn");
 btn.addEventListener("click", function () {
