@@ -39,15 +39,6 @@ function addtocart() {
       .then((data) => {
         console.log("API Response:", data); 
         // Clear previous search results
-        productContainer.innerHTML = "";
-        // Display each product as a card
-        (product) => {
-          console.log("Product:", product); 
-          const productCard = document.createElement("div");
-          productCard.className = "product-card";
-          productCard.innerText = product.name;
-          productContainer.appendChild(productCard);
-        };
       })
       .catch((error) => console.error("Error:", error));
   }
@@ -178,3 +169,4 @@ axios.get("https://dummyjson.com/products/category/smartphones")
 })
 
 // https://651e4672b9e1313dbc1373e2--rad-hotteok-7f5a62.netlify.app/
+
