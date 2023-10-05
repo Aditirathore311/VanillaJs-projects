@@ -12,7 +12,7 @@ async function getData() {
     ].description.slice(0, 20);
     element.getElementsByTagName("h3")[0].innerHTML =
       "Price : $" + data.products[i].price;
-    //    element.getElementsByTagName("p")[0].innerHTML = data.products[i].price;
+
   });
 }
 getData();
@@ -38,12 +38,12 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => {
-        console.log("API Response:", data); // Log the API response for debugging
+        console.log("API Response:", data); 
         // Clear previous search results
         productContainer.innerHTML = "";
         // Display each product as a card
         (product) => {
-          console.log("Product:", product); // Log each product for debugging
+          console.log("Product:", product); 
           const productCard = document.createElement("div");
           productCard.className = "product-card";
           productCard.innerText = product.name;
