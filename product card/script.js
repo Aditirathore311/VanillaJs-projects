@@ -38,9 +38,7 @@ function addtocart() {
       .then((response) => response.json())
       .then((data) => {
         console.log("API Response:", data); 
-        // Clear previous search results
       })
-      .catch((error) => console.error("Error:", error));
   }
 
   // Event listener for the search button
@@ -50,11 +48,10 @@ function addtocart() {
   clearButton.addEventListener("click", () => {
     // Clear search input
     searchInput.value = "";
-
     searchProducts();
   });
 
-
+// for description
 var btn = document.querySelector(".btn");
 btn.addEventListener("click", function () {
   btn.innerHTML = "An apple mobile which is nothing like apple";
