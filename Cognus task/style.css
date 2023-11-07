@@ -8,6 +8,7 @@
 }
 body {
   height: 100%;
+  
 }
 .top-bar {
   display: flex;
@@ -80,6 +81,7 @@ input[type="text"] {
   cursor: pointer;
 }
 
+
 ul {
   display: flex;
   align-items: center;
@@ -142,14 +144,14 @@ ul.dropdown li:hover {
   margin-top: 9%;
 }
 .title-container h1 {
-  padding-left: 7%;
-  font-size: 45px;
+  padding-left: 6%;
+  font-size: 40px;
   font-weight: 200;
 }
 .title {
   margin: 70px auto;
   width: 87%;
-  padding-top: -50%;
+  padding-top: -0%;
 }
 
 .title img {
@@ -159,12 +161,12 @@ ul.dropdown li:hover {
   border-radius: 10px;
 }
 .text h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(147, 147, 147);
   padding-top: 21px;
 }
 .text p {
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(164, 164, 164);
 }
 .btn2 {
@@ -202,7 +204,11 @@ ul.dropdown li:hover {
   .top-bar a {
     margin-top: 10px;
   }
-
+  .logo-container img {
+    width: 89%;
+    margin-top: 1%;
+    padding-left: 50px;
+  }
   .search-container {
     float: none;
     display: flex;
@@ -212,7 +218,7 @@ ul.dropdown li:hover {
 
   .search-container input[type="text"] {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
   .search-container button {
@@ -255,4 +261,39 @@ ul.dropdown li:hover {
     margin-left: 26%;
     margin-bottom: 10%;
   }
+  
+  .title-container h1 {
+    padding-left: 7%;
+    font-size: 40px;
+    font-weight: 200;
+    padding-top: 7%;
+  }
+  
+  
+  .title img {
+    height: 120px;
+    width: 100px;
+    /* float: left; */
+    /* border-radius: 10px; */
+  }
+  .text h3 {
+    font-size: 20px;
+    color: rgb(147, 147, 147);
+    padding-top: 21px;
+  }
+  .text p {
+    font-size: 14px;
+    color: rgb(164, 164, 164);
+  }
+  .image img {
+    float: right;
+    width: 37%;
+    border: none;
+    height: 45%;
+    margin-top: 15%;
+    margin-right: 5%;
+  }
+  
 }
+
+/* please open this link in your browser */
